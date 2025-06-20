@@ -22,6 +22,7 @@ A Python script that automatically organizes files in a specified folder into ca
 
 ---
 
+
 ## 📦 Requirements
 
 This script runs on **Python 3.x** and uses only standard libraries:
