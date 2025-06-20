@@ -20,9 +20,11 @@ file_mappings = {
     'web_files': ['.html', '.css', '.js']
 }
 
+
 # Create folders if they don't exist
 for folder in file_mappings:
     os.makedirs(os.path.join(path, folder), exist_ok=True)
+
 
 # Move files into respective folders
 for file in os.listdir(path):
